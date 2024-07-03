@@ -1,0 +1,71 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.top{
+    background-color: #13273e;;
+    display: flex;
+    padding-left: 20px ;
+}
+
+.top a{
+    flex: 0;
+    padding: 8px 20px;
+}
+
+
+.navigation{
+    background-image: url(clg_img.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 100vh;
+}
+#logo{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:fit-content;
+    text-align: center;
+    padding: 8px 100px;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    height:min-content;
+    width:100%;
+    position: relative;
+    padding:25px 25px;
+}
+.navigation a{
+    display: inline-flex;
+    padding-right:25px;
+}
+
+.bottom{
+    /* background-color: brown; */
+    margin-top: 5px;
+    text-align: center;
+    height: 5vh;
+    width: fit-content;
+    padding-top: 15px;
+    margin-left: 25%;
+    position: fixed;
+    bottom:10%;
+} 
+
+.bottom a{
+    background-color: brown;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+marquee{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    color:white;
+    background-color: brown;
+    position: fixed;
+    bottom: 0;
+}
